@@ -2,7 +2,8 @@
     "status": "SUCCESS",
     "responseData": { 
         "1": {
-            "odds": 5
+            "odds": 5,
+            "oddsOpposite": 5
         }
 
      }
