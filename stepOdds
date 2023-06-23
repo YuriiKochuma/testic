@@ -1,22 +1,22 @@
 public static float koefStep(float koef) {
-        if (koef > 100f)
-            return 50;
-        if (koef > 50f)
-            return 10f;
-        if (koef > 20f)
-            return 5f;
-        if (koef > 10f)
-            return 1f;
-        if (koef > 6f)
-            return 0.25f;
-        if (koef > 4f)
-            return 0.2f;
-        if (koef > 3f)
-            return 0.1f;
-        if (koef > 2.4f)
-            return 0.05f;
-        if (koef > 1.91f)
-            return 0.02f;
+    if (koef > 100f)
+        return 10f;
+    if (koef > 50f)
+        return 5f;
+    if (koef > 30f)
+        return 2f;
+    if (koef > 20f)
+        return 1f;
+    if (koef > 10f)
+        return 0.5f;
+    if (koef > 6f)
+        return 0.2f;
+    if (koef > 4f)
+        return 0.1f;
+    if (koef > 3f)
+        return 0.05f;
+    if (koef > 2f)
+        return 0.02f;
 
-        return 0.01f;
+    return 0.01f;
     }
